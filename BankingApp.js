@@ -5,6 +5,8 @@ it("Validating customer login", function(){
 browser.get("http://www.way2automation.com/angularjs-protractor/banking/#/login");
 element(By.buttonText("Customer Login")).click();
 
+expect(browser.getTitle()).toContain("Protractor practice");
+
 
 element.all(by.css("#userSelect option")).then(function(items){
 console.log("Total values in the dropdown are: "+ items.length);
@@ -32,6 +34,10 @@ console.log(text);
 //Automating Clicking on a particular element.
 
 element(by.model("custId")).$("[value = '2']").click();
+
+element(by.buttonText("Login")).click();
+
+expect(element(by.binding("user")).getText()).toEqual("Harry Potter");
 browser.sleep(3000);
 
 
