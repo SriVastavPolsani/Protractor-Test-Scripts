@@ -1,0 +1,3 @@
+{"level":"info","message":"Validating using equal","timestamp":"2017-03-21T05:03:01.619Z"}
+{"level":"info","message":"Validating using not equal","timestamp":"2017-03-21T05:03:01.925Z"}
+{"level":"info","message":"Validating using to match","timestamp":"2017-03-21T05:03:02.242Z"}
