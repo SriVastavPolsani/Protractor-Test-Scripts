@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1490152299881" stop="1490152307522">
+	<name>Validating title of a page</name>
+	<title>Validating title of a page</title>
+	<test-cases>
+		<test-case start="1490152299881" stop="1490152304763" status="passed">
+			<name>Checking if title is same as passed value</name>
+			<title>Checking if title is same as passed value</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="e43eda43-bdbe-4154-acd7-ff8da473174e-attachment.png" type="image/png" size="18933"/>
+			</attachments>
+		</test-case>
+		<test-case start="1490152304763" stop="1490152307522" status="passed">
+			<name>Checking if title is not equal to a value</name>
+			<title>Checking if title is not equal to a value</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="b131c5a9-fb69-4b44-902b-86e85b13cf64-attachment.png" type="image/png" size="18933"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>
