@@ -18,4 +18,4 @@ var customLocator = function() {
     });
 }
 
-//module.exports=new customLocator();
+module.exports=new customLocator();
