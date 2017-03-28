@@ -2,7 +2,7 @@ exports.config = {
 directConnect: true,
 framework: 'jasmine2',
 seleniumAddress: 'http://localhost:4444/wd/hub',
-specs: ['Test.js'],
+specs: [''],
     onPrepare: function(){
     var AllureReporter = require('jasmine-allure-reporter');
     jasmine.getEnv().addReporter(new AllureReporter({
