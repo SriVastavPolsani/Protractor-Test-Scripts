@@ -1,17 +1,21 @@
-require('../util/cusomlocators.js');
+var route = require("../util/AddLocator.js");
 
-var HomePage = function () {
+var HomePage = function(){
 
-    this.loinCustomer = function () {
+    /* Business logic */
+    this.loginAsCustomer = function(){
 
-        element(by.partialButtonText('customer')).click();
+        element(by.partialButtonText("")).click();
+
     };
 
-    this.loginAsBankManager = function () {
+    this.loginAsBankManager = function(){
 
-        element(by.ngClick('manager()')).click();
+        element(by.ngClick("manager()")).click();
+        return require("./CustomerInfo");
     };
-    
+
 };
-
-module.exports = new Homepage();
+/* creating reference for this page
+ */
+module.exports = new HomePage();

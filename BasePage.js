@@ -1,20 +1,10 @@
-/**
- * Created by SriVastav on 3/28/2017.
- */
+/* common business logic for all pages */
 var BasePage = function(){
-
-    this.navigateToURL = function (url) {
-
+    this.navigatetoURL = function(url){
         browser.get(url);
-        
     };
-
-    this.getPageTitle = function () {
-
-        browser.getTitle();
-
-    }
-
+    this.getPageTitle = function(){
+        return browser.getTitle();
+    };
 };
-
 module.exports = new BasePage();
